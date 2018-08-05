@@ -23,7 +23,7 @@ namespace Test.MD5
             SymmetricalEncrypt.EncryptFile(inFilePath, outFilePath, "KeithTest0912");
             Util.Print("Encrypt finished, Elapsed time is : " + watch.ElapsedMilliseconds/1000);    //  172s
             watch.Restart();
-            SymmetricalEncrypt.DecryptDile(outFilePath, @".\temp.iso", "KeithTest0912");
+            SymmetricalEncrypt.DecryptFile(outFilePath, @".\temp.iso", "KeithTest0912");
             Util.Print("Decrypt finished, Elapsed time is : " + watch.ElapsedMilliseconds / 1000);  //   372s
         }
     }

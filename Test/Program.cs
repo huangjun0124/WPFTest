@@ -30,7 +30,7 @@ namespace Test
 
         static void Main(string[] args)
         {
-            CallCppT();
+            TestStringOperConsume.TestStarter();
             //EncryptFile();
             Console.Read();
         }

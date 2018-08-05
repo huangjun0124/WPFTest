@@ -61,6 +61,7 @@
     <Compile Include="SerializeTest.cs" />
     <Compile Include="SingletonTest.cs" />
     <Compile Include="Temp.cs" />
+    <Compile Include="TestStringOperConsume.cs" />
     <Compile Include="ThreadCollectionTest.cs" />
     <Compile Include="Thread\AutoResetEventT.cs" />
     <Compile Include="Thread\BackgroundWorkerT.cs" />

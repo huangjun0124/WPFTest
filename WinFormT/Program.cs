@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -22,11 +23,8 @@ namespace WinFormT
             
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 
-            
-            
-            
 
-
+            SysConsole.Show();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
